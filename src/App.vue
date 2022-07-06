@@ -1,18 +1,18 @@
 <template>
-  <div>
+  <div style="margin: 30px;">
     <OptionsAPI />
-    <CompositionAPI />
+    <!-- <CompositionAPI /> -->
   </div>
 </template>
 
 <script>
 import OptionsAPI from './components/OptionAPI.vue';
-import CompositionAPI from './components/CompositionAPI.vue';
+// import CompositionAPI from './components/CompositionAPI.vue';
 
 export default {
   components: {
     OptionsAPI,
-    CompositionAPI,
+    // CompositionAPI,
   },
 };
 </script>

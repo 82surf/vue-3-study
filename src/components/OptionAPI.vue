@@ -11,16 +11,20 @@
 </template>
 
 <script>
-// Options API
+/**
+ * Options API
+ * state 선언부와 methods 선언부가 나뉘어져 있다.
+ * 여러 로직을 작성하게 되면 코드 흐름 파악이 어렵다.
+ */
 export default {
-  // state
+  // state 선언부
   data() {
     return {
       count: 1,
       items: ['foo', 'bar'],
     };
   },
-  // method
+  // method 선언부
   methods: {
     increment() {
       this.count++;
