@@ -11,13 +11,16 @@
 </template>
 
 <script>
+// Options API
 export default {
+  // state
   data() {
     return {
       count: 1,
       items: ['foo', 'bar'],
     };
   },
+  // method
   methods: {
     increment() {
       this.count++;

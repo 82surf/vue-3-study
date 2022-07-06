@@ -11,14 +11,21 @@
 </template>
 
 <script setup>
+// Composition API
 import { ref, reactive } from 'vue';
 
+// Counter Logic
+// state
 const count = ref(0);
+// method
 function increment() {
   count.value++;
 }
 
+// Add Item Logic
+// state
 const items = reactive({ arr: ['foo', 'bar'] });
+// method
 function addItem() {
   items.arr.push('new item');
 }
